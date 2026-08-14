@@ -40,7 +40,7 @@
 ### نصب
 
 - **برای Claude.ai / Claude Code / Claude Cowork:** پوشه‌ی `skill/sms-ir-api` را کپی کنید و طبق مستندات نصب Skill مربوط به همان محصول اضافه‌اش کنید ([docs.claude.com](https://docs.claude.com) را برای راهنمای به‌روز نصب Skill بررسی کنید، چون محل و روش نصب ممکن است بین محصولات مختلف Claude فرق داشته باشد).
-- **بسته‌بندی به‌صورت فایل `.skill`:** یک فایل `.skill` در واقع فقط یک zip از پوشه‌ی skill است. با اسکریپت مستقل و بدون‌وابستگی‌ی همین مخزن آن را بسازید:
+- **بسته‌بندی به‌صورت فایل `.skill`:** یک فایل `.skill` در واقع فقط یک zip از پوشه‌ی skill است. با اسکریپت `package_skill.py` واقع در `scripts/` آن را بسازید:
 
   ```bash
   python3 scripts/package_skill.py skill/sms-ir-api
